@@ -1,6 +1,6 @@
-package 기본수학1;
+package 기본수학2;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class n_1978 {
 	public static void main(String[] args) {
