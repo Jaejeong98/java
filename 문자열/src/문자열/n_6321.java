@@ -10,12 +10,12 @@ public class n_6321 {
 		for(int i=0; i<T; i++) {
 			String st=br.readLine(), result="";
 			for(int j=0; j<st.length(); j++) {
-				if(st.charAt(j)=='z')
-					result+='a';
+				if(st.charAt(j)=='Z')
+					result+='A';
 				else 
 					result+=(char)(st.charAt(j)+1);
 			}
-			bw.write("String #"+(i+1)+"\n"+result+"\n");
+			bw.write("String #"+(i+1)+"\n"+result+"\n\n");
 		}
 		bw.flush();bw.close();
 	}
